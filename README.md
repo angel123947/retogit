@@ -9,4 +9,4 @@ Este proyecto fue creado como parte de un reto para demostrar el uso eficaz de l
 - Trabajar con ramas.
 - Fusionar cambios de desarrollo a la rama principal.
 
-- 
+![Imagen de Java](img/Java.png)
