@@ -3,12 +3,14 @@ public class Persona {
     private String apellido;
     private int edad;
     private String sexo;
+    private String correo;
 
     public Persona(String nombre, String apellido, int edad, String sexo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.sexo = sexo;
+        this.correo = correo;
     }
 
     public String getNombre() {
@@ -43,6 +45,15 @@ public class Persona {
         this.sexo = sexo;
     }
 
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+
     @Override
     public String toString() {
         return "Persona{" +
@@ -50,6 +61,7 @@ public class Persona {
                 ", apellido='" + apellido + '\'' +
                 ", edad=" + edad +
                 ", sexo='" + sexo + '\'' +
+                ", correo='" + correo + '\'' +
                 '}';
     }
 }
